@@ -1,0 +1,16 @@
+name: BasisCore
+version: '${project.version}'
+main: dev.beabueno.basiscore.BasisCore
+api-version: 1.18
+prefix: BASIS
+authors: [ Bea ]
+description: A Core plugin
+commands:
+  gm:
+    usage: 'USAGE: /gm <creative/survival/adventure/spectator> OR <c/s/a/sp> [player]'
+    aliases:
+      - gamemode
+  feed:
+    usage: 'USAGE: /feed [player]'
+    aliases:
+      - eat
