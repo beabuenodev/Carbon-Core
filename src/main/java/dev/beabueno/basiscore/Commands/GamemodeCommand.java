@@ -15,9 +15,9 @@ public class GamemodeCommand implements CommandExecutor {
     static final String PLAYER_NOTONLINE = "This player is not online";
     static final String PLAYER_NOPERMISSION = "You don't have permission to do this";
 
-    static final String PERM_ALL = "basis.gm.*";
-    static final String PERM_PREFIX = "basis.gm.";
-    static final String PERM_OTHERS = "basis.gm.others";
+    static final String PERM_ALL = "basis.core.gm.*";
+    static final String PERM_PREFIX = "basis.core.gm.";
+    static final String PERM_OTHERS = "basis.core.gm.others";
 
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
