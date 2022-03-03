@@ -14,3 +14,5 @@ commands:
     usage: 'USAGE: /feed [player]'
     aliases:
       - eat
+  heal:
+    usage: 'USAGE: /heal [player]'
